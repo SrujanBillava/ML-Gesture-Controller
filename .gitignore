@@ -1,0 +1,60 @@
+# ─── Python ───────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# ─── Virtual Environments ─────────────────────────────────
+venv/
+.venv/
+env/
+
+# ─── Environment Variables ────────────────────────────────
+.env
+
+# ─── Jupyter (optional but recommended) ───────────────────
+.ipynb_checkpoints/
+
+# ─── IDE / Editor ─────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# ─── OS Files ─────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Models (large binary files) ──────────────────────────
+models/
+gesture_control/models/*.pkl
+gesture_control/models/*.h5
+gesture_control/models/*.tflite
+gesture_control/models/confusion_matrix_*.png
+
+# ─── Dataset (too large for git) ──────────────────────────
+data/
+gesture_control/data/
+
+# ─── Dataset images ───────────────────────────────────────
+gesture_control/dataset/
+
+# ─── Logs ─────────────────────────────────────────────────
+logs/
+gesture_control/logs/
+*.log
+
+# ─── Pytest / Testing ─────────────────────────────────────
+.pytest_cache/
+htmlcov/
+.coverage
+
+# ─── Distribution / Build ─────────────────────────────────
+dist/
+build/
+*.egg-info/
+myvenv/
